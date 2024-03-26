@@ -59,6 +59,9 @@ const Navbar = () => {
             <li>
               <NavLink className={({isActive})=>isActive? 'text-primary font-bold': 'text-base font-semibold'} to="/">Home</NavLink>
             </li>
+            <li>
+              <NavLink className={({isActive})=>isActive? 'text-primary font-bold': 'text-base font-semibold'} to="/home">Home</NavLink>
+            </li>
 
             <li>
               <NavLink className={({isActive})=>isActive? 'text-primary font-bold': 'text-base font-semibold'} to="/blogs">Blogs</NavLink>
